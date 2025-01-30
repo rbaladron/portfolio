@@ -1,0 +1,76 @@
+/* Reset de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #002F71;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #002F71;
+    color: white;
+}
+
+/* Estilo para las secciones */
+#about, #projects {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects ul {
+    list-style-type: none;
+}
+
+#projects li {
+    margin: 10px 0;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #002F71;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+
+    #about, #projects {
+        margin: 10px;
+        padding: 15px;
+    }
+}
